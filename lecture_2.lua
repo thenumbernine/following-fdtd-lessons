@@ -155,7 +155,7 @@ function App:update()
 		gl.glEnd()
 	end
 end
-App():run()
+return App():run()
 --]]
 --[[ gnuplot it all
 --assert(dz) print('dz:size()', dz:size())

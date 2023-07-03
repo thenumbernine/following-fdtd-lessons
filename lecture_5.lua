@@ -240,7 +240,7 @@ end
 function App:updateGUI()
 	ig.igText('scale '..max)
 end
-App():run()
+return App():run()
 --]]
 --[[ gnuplot it all
 --assert(dz) print('dz:size()', dz:size())
