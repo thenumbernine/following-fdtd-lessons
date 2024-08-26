@@ -125,7 +125,8 @@ end):wrap()
 -- [[ using GLApp
 local GLApp = require 'glapp'
 local gl = require 'gl'
-local App = class(GLApp)
+local App = GLApp:subclass()
+App.viewUseGLMatrixMode = true
 App.title = 'FTDT test'
 function App:update()
 	gl.glClear(gl.GL_COLOR_BUFFER_BIT)
