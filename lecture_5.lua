@@ -169,7 +169,7 @@ error"why isn't ref normalized + trn normalized equal to 1?"
 end):wrap()
 
 -- [[ using GLApp
-local ImGuiApp = require 'imguiapp'
+local ImGuiApp = require 'imgui.app'
 local gl = require 'gl'
 local ig = require 'imgui'
 local App = class(ImGuiApp)

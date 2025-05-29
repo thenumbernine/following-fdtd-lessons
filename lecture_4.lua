@@ -148,7 +148,7 @@ local loop = (function()
 end):wrap()
 
 -- [[ using GLApp
-local ImGuiApp = require 'imguiapp'
+local ImGuiApp = require 'imgui.app'
 local gl = require 'gl'
 local ig = require 'imgui'
 local App = class(ImGuiApp)
