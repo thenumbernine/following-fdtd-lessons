@@ -151,7 +151,8 @@ end):wrap()
 local ImGuiApp = require 'imgui.app'
 local gl = require 'gl'
 local ig = require 'imgui'
-local App = class(ImGuiApp)
+local App = ImGuiApp:subclass()
+App.viewUseGLMatrixMode = true
 local max
 App.title = 'FTDT test'
 function App:update()
