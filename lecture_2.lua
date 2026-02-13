@@ -123,7 +123,7 @@ local loop = (function()
 end):wrap()
 
 -- [[ using GLApp
-local GLApp = require 'glapp'
+local GLApp = require 'gl.app'
 local gl = require 'gl'
 local App = GLApp:subclass()
 App.viewUseGLMatrixMode = true
